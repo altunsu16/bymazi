@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,th,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        #tablo th{
+            background-color: cadetblue;
+            color: white;
+        }
+        #tablo tr:nth-child(odd){
+            background-color: lightgrey;
+        }
+        /* odd tekleri even ise çiftleri boyar */
+        #tablo tr:hover{
+            background-color: beige;
+        }
+        #tablo{
+            text-align: center;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <table id="tablo">
+        <tr>
+            <th>İsim</th>
+            <th>Soyisim</th>
+            <th>Telefon</th>
+            <th>Adres</th>
+        </tr>
+        <tr>
+            <td>Volkan</td>
+            <td>Altunsu</td>
+            <td>05382280157</td>
+            <td>Bursa/Osmangazi</td>
+        </tr>
+        <tr>
+            <td>Esma</td>
+            <td>Altunsu</td>
+            <td>05382280157</td>
+            <td>Bursa/Osmangazi</td>
+        </tr>
+        <tr>
+            <td>Volkan</td>
+            <td>Altunsu</td>
+            <td>05382280157</td>
+            <td>Bursa/Osmangazi</td>
+        </tr>
+        <tr>
+            <td>Esma</td>
+            <td>Altunsu</td>
+            <td>05382280157</td>
+            <td>Bursa/Osmangazi</td>
+        </tr>
+    </table>
+</body>
+
+</html>
